@@ -108,7 +108,7 @@ const EventCard = ({ event, index }) => {
         {event.description}
       </p>
 
-      {/* Map link */}
+      {/* Map link
       <a
         href={event.mapUrl}
         target="_blank"
@@ -134,7 +134,7 @@ const EventCard = ({ event, index }) => {
       >
         <MapPin size={13} strokeWidth={1.5} />
         মানচিত্রে দেখুন
-      </a>
+      </a> */}
     </div>
   )
 }
