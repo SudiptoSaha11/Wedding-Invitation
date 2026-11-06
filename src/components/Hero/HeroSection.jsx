@@ -119,7 +119,7 @@ export default function HeroSection() {
             color:'#FDF6E3', lineHeight:1.2,
             textShadow:'0 2px 24px rgba(0,0,0,0.65)',
           }}>
-            {weddingData.bride.nameBn}
+            {weddingData.groom.nameBn}
           </h2>
           <p style={{
             fontFamily:'var(--font-display)', fontStyle:'italic',
@@ -133,7 +133,7 @@ export default function HeroSection() {
             color:'#FDF6E3', lineHeight:1.2,
             textShadow:'0 2px 24px rgba(0,0,0,0.65)',
           }}>
-            {weddingData.groom.nameBn}
+            {weddingData.bride.nameBn}
           </h2>
         </div>
 

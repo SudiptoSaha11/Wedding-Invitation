@@ -12,7 +12,7 @@ export default function VenueSection() {
     scaleIn(cardRef.current,   { start: 'top 85%', duration: 1.0 })
   }, [])
 
-  const { venue, events, weddingDateBn, weddingDateBengaliCal } = weddingData
+  const { venue, events, receptionDateBn, receptionDateBengaliCal} = weddingData
   const mainEvent = events.find(e => e.id === 'wedding')
 
   return (
@@ -39,11 +39,11 @@ export default function VenueSection() {
 
       {/* Title */}
       <div ref={titleRef} style={{ marginBottom: '2.5rem' }}>
-        <p style={{ fontFamily: 'var(--font-bengali)', fontSize: '0.8rem', letterSpacing: '0.25em', color: 'rgba(201,168,76,0.7)', marginBottom: '0.5rem' }}>
+        <p style={{ fontFamily: 'var(--font-bengali)', fontSize: '1rem', letterSpacing: '0.25em', color: 'rgba(201,168,76,0.7)', marginBottom: '0.5rem' }}>
           ✦ অনুষ্ঠান স্থান ✦
         </p>
         <h2 style={{ fontFamily: 'var(--font-bengali)', fontSize: 'clamp(1.6rem, 6vw, 2.2rem)', fontWeight: 600, color: 'var(--color-cream)' }}>
-          কোথায় আসবেন
+          আমার বিয়ের রিসেপশনের স্থান ও তারিখ
         </h2>
       </div>
 
@@ -85,10 +85,10 @@ export default function VenueSection() {
             <MapPin size={16} style={{ color: 'var(--color-gold)', flexShrink: 0, marginTop: 2 }} strokeWidth={1.5} />
             <div>
               <p style={{ fontFamily: 'var(--font-bengali)', fontSize: '0.95rem', color: 'var(--color-cream)', fontWeight: 500 }}>
-                {venue.addressBn}
+                {venue.venueNameBn}
               </p>
               <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.78rem', color: 'rgba(245,230,192,0.6)', marginTop: '0.2rem' }}>
-                {venue.addressEn}
+                {venue.addressBn}
               </p>
             </div>
           </div>
@@ -97,10 +97,10 @@ export default function VenueSection() {
             <Calendar size={16} style={{ color: 'var(--color-gold)', flexShrink: 0 }} strokeWidth={1.5} />
             <div>
               <p style={{ fontFamily: 'var(--font-bengali)', fontSize: '0.95rem', color: 'var(--color-cream)' }}>
-                {weddingDateBn}
+                {receptionDateBn}
               </p>
               <p style={{ fontFamily: 'var(--font-bengali)', fontSize: '0.75rem', color: 'rgba(201,168,76,0.7)', marginTop: '0.15rem' }}>
-                {weddingDateBengaliCal}
+                {receptionDateBengaliCal}
               </p>
             </div>
           </div>

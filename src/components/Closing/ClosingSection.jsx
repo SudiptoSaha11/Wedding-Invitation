@@ -63,7 +63,7 @@ export default function ClosingSection() {
       ref={sectionRef}
       style={{
         background: 'linear-gradient(180deg, var(--color-cream-dark) 0%, var(--color-cream) 40%, #EEE0C2 100%)',
-        padding: '5rem 1.5rem 4rem',
+        padding: '1rem 1.5rem 2rem',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
@@ -102,7 +102,7 @@ export default function ClosingSection() {
       >
         <img
           src="/assets/images/couple.png"
-          alt={`${bride.nameBn} ও ${groom.nameBn}`}
+          alt={`${groom.nameBn} ও ${bride.nameBn}`}
           style={{
             width: '100%',
             maxWidth: 220,
@@ -154,7 +154,7 @@ export default function ClosingSection() {
           color: 'var(--color-maroon)',
           lineHeight: 1.4,
         }}>
-          {bride.nameBn}
+          {groom.nameBn}
         </p>
         <p style={{
           fontFamily: 'var(--font-display)',
@@ -173,7 +173,7 @@ export default function ClosingSection() {
           lineHeight: 1.4,
           marginBottom: '2rem',
         }}>
-          {groom.nameBn}
+          {bride.nameBn}
         </p>
 
         <p style={{
@@ -298,15 +298,17 @@ export default function ClosingSection() {
           </button>
         </div>
       </div>
-
-      {/* Bottom ornament */}
+<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+  {/* Bottom ornament */}
       <img
         src="/assets/images/ornament.png"
         alt=""
         aria-hidden="true"
-        style={{ width: '100%', maxWidth: 250, height: 'auto', opacity: 0.4, marginTop: '1.5rem' }}
+        style={{ width: '100%', maxWidth: 250, height: 'auto', opacity: 0.4}}
       />
 
+</div>
+      
       {/* Copyright */}
       <p style={{
         fontFamily: 'var(--font-body)',
@@ -314,7 +316,8 @@ export default function ClosingSection() {
         color: 'rgba(107,75,59,0.35)',
         marginTop: '2rem',
       }}>
-        {weddingData.bride.nameEn} &amp; {weddingData.groom.nameEn} · 26.11.2026
+        {weddingData.groom.nameEn} &amp; {weddingData.bride.nameEn} · 26.11.2026
+        <br/>© {new Date().getFullYear()} Sudipto Saha. All rights reserved. 
       </p>
     </section>
   )

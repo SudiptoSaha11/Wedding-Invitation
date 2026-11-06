@@ -139,7 +139,7 @@ export default function OpeningScreen({ onEnter, screenRef, disabled }) {
             color:'var(--color-cream)', lineHeight:1.25,
             textShadow:'0 2px 16px rgba(0,0,0,0.6)',
           }}>
-            সুচন্দ্রা
+            আদিত্য
           </h1>
           <p style={{
             fontFamily:'var(--font-display)', fontStyle:'italic',
@@ -153,7 +153,7 @@ export default function OpeningScreen({ onEnter, screenRef, disabled }) {
             color:'var(--color-cream)', lineHeight:1.25,
             textShadow:'0 2px 16px rgba(0,0,0,0.6)',
           }}>
-            আদিত্য
+            সুচন্দ্রা
           </h2>
         </div>
 

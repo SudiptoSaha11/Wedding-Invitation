@@ -18,13 +18,14 @@ export const weddingData = {
     image: '/assets/images/groom.png', // replace with actual asset
   },
 
-  // ── Wedding Date ─────────────────────────────────────────
+  // ── Wedding Date / reception ─────────────────────────────────────────
   weddingDate: '2026-11-26T19:00:00', // ISO format — for countdown
   weddingDateBn: '২৬শে নভেম্বর, ২০২৬',
   weddingDateEn: '26th November 2026',
+  receptionDateBn: '২৮শে নভেম্বর, ২০২৬',
+  receptionDateEn: '28th November 2026',
+  receptionDateBengaliCal: '১৩ অগ্রহায়ণ, ১৪৩৩ বঙ্গাব্দ',
   weddingDateBengaliCal: '১১ অগ্রহায়ণ, ১৪৩৩ বঙ্গাব্দ',
-  weddingDay: 'বৃহস্পতিবার', // Thursday
-
   // ── Family ───────────────────────────────────────────────
   brideFamily: {
     fatherBn: 'শ্রী স্বপন সুর',
@@ -70,11 +71,11 @@ export const weddingData = {
       dateEn: '26th November 2026',
       timeBn: 'সন্ধ্যা ৭টা',
       timeEn: '7:00 PM',
-      venueBn: 'আম্রিত আশ্রম',
-      venueEn: 'Amrita shram',
-      address: 'কলকাতা, পশ্চিমবঙ্গ',
+      venueBn: 'জামিনী ভবন',
+      venueEn: 'Jamini Bhavan',
+      address: 'আনন্দপুরি, ব্যারাকপুর',
       description: 'পবিত্র সাত পাকের বন্ধনে আবদ্ধ হওয়ার শুভ মুহূর্তে আপনাকে আমন্ত্রণ।',
-      mapUrl: 'http://google.com/maps/place/Jamini+Bhavan/@22.7655957,88.3753951,21z/data=!4m6!3m5!1s0x39f89a4f76b3c3a7:0xb7736983be1fc936!8m2!3d22.7655264!4d88.375367!16s%2Fg%2F11gzxpypl?entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D',
+      mapUrl: 'https://www.google.com/maps/place/Jamini+Bhavan/@22.7655264,88.375367,17z/data=!3m1!4b1!4m6!3m5!1s0x39f89a4f76b3c3a7:0xb7736983be1fc936!8m2!3d22.7655264!4d88.375367!16s%2Fg%2F11gzxpypl?hl=en-IN&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D',
       emoji: '🌸',
     },
     {
@@ -100,6 +101,7 @@ export const weddingData = {
     nameEn: 'Wedding Venue',
     addressBn: 'তালপুকুর ব্যারাকপুর',
     addressEn: 'Talpukur, Barrackpore',
+    venueNameBn: 'আম্রিত আশ্রম',
     mapUrl: 'https://www.google.com/maps/place/Amrita+Ashram+Wedding+House/@22.750788,88.375036,19.62z/data=!4m15!1m8!3m7!1s0x39f89bb22b2208d7:0xc3bcc9140f352829!2sBilayet+Ali+Rd,+Math+Para,+Titagarh,+Barrackpore,+West+Bengal+700123!3b1!8m2!3d22.7490409!4d88.3750538!16s%2Fg%2F12vr2lxfc!3m5!1s0x39f89bb3b1ffe9df:0x8a8fdf4b562bc819!8m2!3d22.7509366!4d88.3752277!16s%2Fg%2F1q6jzg3tn?entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D',
   },
 

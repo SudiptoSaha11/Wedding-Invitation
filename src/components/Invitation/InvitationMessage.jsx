@@ -100,7 +100,7 @@ export default function InvitationMessage() {
           color: 'var(--color-maroon)',
           lineHeight: 1.2,
         }}>
-          {bride.nameBn}
+          {groom.nameBn}
         </p>
 
         <p ref={addLineRef(5)} style={{
@@ -121,7 +121,7 @@ export default function InvitationMessage() {
           color: 'var(--color-maroon)',
           lineHeight: 1.2,
         }}>
-          {groom.nameBn}
+          {bride.nameBn}
         </p>
 
         <div style={{ height: 1, background: 'linear-gradient(to right, transparent, #C9A84C, transparent)', margin: '1.25rem auto', maxWidth: 140 }} />

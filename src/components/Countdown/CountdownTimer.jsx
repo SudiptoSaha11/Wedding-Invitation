@@ -55,7 +55,7 @@ export default function CountdownTimer() {
           color: 'rgba(201,168,76,0.7)',
           marginBottom: '0.75rem',
         }}>
-          ✦ গণনা ✦
+          ✦ অপেক্ষা ✦
         </p>
         <h2 style={{
           fontFamily: 'var(--font-bengali)',

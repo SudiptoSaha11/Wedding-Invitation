@@ -47,7 +47,7 @@ export default function CoupleSection() {
       id="couple"
       style={{
         background: 'linear-gradient(180deg, var(--color-cream) 0%, var(--color-cream-dark) 100%)',
-        padding: '5rem 1.5rem',
+        padding: '1rem 1.5rem',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',

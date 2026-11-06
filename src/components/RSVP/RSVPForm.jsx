@@ -89,7 +89,7 @@ export default function RSVPForm() {
       id="rsvp"
       style={{
         background: 'linear-gradient(180deg, var(--color-cream) 0%, var(--color-cream-dark) 100%)',
-        padding: '5rem 1.5rem',
+        padding: '1rem 1.5rem',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
@@ -122,8 +122,7 @@ export default function RSVPForm() {
             color: 'var(--color-maroon)',
             marginBottom: '0.5rem',
           }}
-        >
-          আসবেন তো?
+        >আমার বিয়ের রিসেপশন এ আপনার আমন্ত্রণ রইলো
         </h2>
 
         <p
