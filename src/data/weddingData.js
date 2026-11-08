@@ -74,7 +74,7 @@ export const weddingData = {
       venueBn: 'জামিনী ভবন',
       venueEn: 'Jamini Bhavan',
       address: 'আনন্দপুরি, ব্যারাকপুর',
-      description: 'পবিত্র সাত পাকের বন্ধনে আবদ্ধ হওয়ার শুভ মুহূর্তে আপনাকে আমন্ত্রণ।',
+      description: 'পবিত্র সাত পাকের বন্ধনে আবদ্ধ হওয়ার শুভ মুহূর্তে আপনার আশীর্বাদ কামনা করি।',
       mapUrl: 'https://www.google.com/maps/place/Jamini+Bhavan/@22.7655264,88.375367,17z/data=!3m1!4b1!4m6!3m5!1s0x39f89a4f76b3c3a7:0xb7736983be1fc936!8m2!3d22.7655264!4d88.375367!16s%2Fg%2F11gzxpypl?hl=en-IN&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D',
       emoji: '🌸',
     },
@@ -115,7 +115,7 @@ export const weddingData = {
   ],
 
   // ── Music ────────────────────────────────────────────────
-  music: '/assets/music/wedding-theme.mp3', // replace with actual .mp3 file
+  music: '/assets/music/new 2.mp3', // replace with actual .mp3 file
 
   // ── RSVP Config ──────────────────────────────────────────
   rsvp: {

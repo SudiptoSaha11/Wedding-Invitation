@@ -38,9 +38,9 @@ function App() {
   useEffect(() => {
     const audio      = new Audio()
     audio.loop       = true
-    audio.volume     = 0.45
+    audio.volume     = 0.25
     audio.onerror    = () => {}
-    audio.src        = '/assets/music/wedding-theme.mp3'
+    audio.src        = '/assets/music/new 2.mp3'
     audioRef.current = audio
     return () => { audio.pause(); audio.src = '' }
   }, [])
